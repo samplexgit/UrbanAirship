@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A7BC21F1E94C955009590D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC21E1E94C955009590D9 /* AppDelegate.swift */; };
+		9A7BC2211E94C955009590D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2201E94C955009590D9 /* ViewController.swift */; };
+		9A7BC2241E94C956009590D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7BC2221E94C956009590D9 /* Main.storyboard */; };
+		9A7BC2261E94C956009590D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7BC2251E94C956009590D9 /* Assets.xcassets */; };
+		9A7BC2291E94C956009590D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7BC2271E94C956009590D9 /* LaunchScreen.storyboard */; };
+		9A7BC2341E94C956009590D9 /* UrbenAirShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2331E94C956009590D9 /* UrbenAirShipTests.swift */; };
+		9A7BC23F1E94C956009590D9 /* UrbenAirShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC23E1E94C956009590D9 /* UrbenAirShipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7BC2301E94C956009590D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7BC2131E94C955009590D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7BC21A1E94C955009590D9;
+			remoteInfo = UrbenAirShip;
+		};
+		9A7BC23B1E94C956009590D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7BC2131E94C955009590D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7BC21A1E94C955009590D9;
+			remoteInfo = UrbenAirShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A7BC21B1E94C955009590D9 /* UrbenAirShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbenAirShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7BC21E1E94C955009590D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A7BC2201E94C955009590D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A7BC2231E94C956009590D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A7BC2251E94C956009590D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7BC2281E94C956009590D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7BC22A1E94C956009590D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7BC22F1E94C956009590D9 /* UrbenAirShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbenAirShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7BC2331E94C956009590D9 /* UrbenAirShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbenAirShipTests.swift; sourceTree = "<group>"; };
+		9A7BC2351E94C956009590D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7BC23A1E94C956009590D9 /* UrbenAirShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbenAirShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7BC23E1E94C956009590D9 /* UrbenAirShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbenAirShipUITests.swift; sourceTree = "<group>"; };
+		9A7BC2401E94C956009590D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7BC2181E94C955009590D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7BC22C1E94C956009590D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7BC2371E94C956009590D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7BC2121E94C955009590D9 = {
+			isa = PBXGroup;
+			children = (
+				9A7BC21D1E94C955009590D9 /* UrbenAirShip */,
+				9A7BC2321E94C956009590D9 /* UrbenAirShipTests */,
+				9A7BC23D1E94C956009590D9 /* UrbenAirShipUITests */,
+				9A7BC21C1E94C955009590D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7BC21C1E94C955009590D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC21B1E94C955009590D9 /* UrbenAirShip.app */,
+				9A7BC22F1E94C956009590D9 /* UrbenAirShipTests.xctest */,
+				9A7BC23A1E94C956009590D9 /* UrbenAirShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A7BC21D1E94C955009590D9 /* UrbenAirShip */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC21E1E94C955009590D9 /* AppDelegate.swift */,
+				9A7BC2201E94C955009590D9 /* ViewController.swift */,
+				9A7BC2221E94C956009590D9 /* Main.storyboard */,
+				9A7BC2251E94C956009590D9 /* Assets.xcassets */,
+				9A7BC2271E94C956009590D9 /* LaunchScreen.storyboard */,
+				9A7BC22A1E94C956009590D9 /* Info.plist */,
+			);
+			path = UrbenAirShip;
+			sourceTree = "<group>";
+		};
+		9A7BC2321E94C956009590D9 /* UrbenAirShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC2331E94C956009590D9 /* UrbenAirShipTests.swift */,
+				9A7BC2351E94C956009590D9 /* Info.plist */,
+			);
+			path = UrbenAirShipTests;
+			sourceTree = "<group>";
+		};
+		9A7BC23D1E94C956009590D9 /* UrbenAirShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC23E1E94C956009590D9 /* UrbenAirShipUITests.swift */,
+				9A7BC2401E94C956009590D9 /* Info.plist */,
+			);
+			path = UrbenAirShipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7BC21A1E94C955009590D9 /* UrbenAirShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7BC2431E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShip" */;
+			buildPhases = (
+				9A7BC2171E94C955009590D9 /* Sources */,
+				9A7BC2181E94C955009590D9 /* Frameworks */,
+				9A7BC2191E94C955009590D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrbenAirShip;
+			productName = UrbenAirShip;
+			productReference = 9A7BC21B1E94C955009590D9 /* UrbenAirShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A7BC22E1E94C956009590D9 /* UrbenAirShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7BC2461E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipTests" */;
+			buildPhases = (
+				9A7BC22B1E94C956009590D9 /* Sources */,
+				9A7BC22C1E94C956009590D9 /* Frameworks */,
+				9A7BC22D1E94C956009590D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7BC2311E94C956009590D9 /* PBXTargetDependency */,
+			);
+			name = UrbenAirShipTests;
+			productName = UrbenAirShipTests;
+			productReference = 9A7BC22F1E94C956009590D9 /* UrbenAirShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A7BC2391E94C956009590D9 /* UrbenAirShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7BC2491E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipUITests" */;
+			buildPhases = (
+				9A7BC2361E94C956009590D9 /* Sources */,
+				9A7BC2371E94C956009590D9 /* Frameworks */,
+				9A7BC2381E94C956009590D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7BC23C1E94C956009590D9 /* PBXTargetDependency */,
+			);
+			name = UrbenAirShipUITests;
+			productName = UrbenAirShipUITests;
+			productReference = 9A7BC23A1E94C956009590D9 /* UrbenAirShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7BC2131E94C955009590D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Photon;
+				TargetAttributes = {
+					9A7BC21A1E94C955009590D9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					9A7BC22E1E94C956009590D9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A7BC21A1E94C955009590D9;
+					};
+					9A7BC2391E94C956009590D9 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A7BC21A1E94C955009590D9;
+					};
+				};
+			};
+			buildConfigurationList = 9A7BC2161E94C955009590D9 /* Build configuration list for PBXProject "UrbenAirShip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7BC2121E94C955009590D9;
+			productRefGroup = 9A7BC21C1E94C955009590D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7BC21A1E94C955009590D9 /* UrbenAirShip */,
+				9A7BC22E1E94C956009590D9 /* UrbenAirShipTests */,
+				9A7BC2391E94C956009590D9 /* UrbenAirShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7BC2191E94C955009590D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7BC2291E94C956009590D9 /* LaunchScreen.storyboard in Resources */,
+				9A7BC2261E94C956009590D9 /* Assets.xcassets in Resources */,
+				9A7BC2241E94C956009590D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7BC22D1E94C956009590D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7BC2381E94C956009590D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7BC2171E94C955009590D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7BC2211E94C955009590D9 /* ViewController.swift in Sources */,
+				9A7BC21F1E94C955009590D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7BC22B1E94C956009590D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7BC2341E94C956009590D9 /* UrbenAirShipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7BC2361E94C956009590D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7BC23F1E94C956009590D9 /* UrbenAirShipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A7BC2311E94C956009590D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7BC21A1E94C955009590D9 /* UrbenAirShip */;
+			targetProxy = 9A7BC2301E94C956009590D9 /* PBXContainerItemProxy */;
+		};
+		9A7BC23C1E94C956009590D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7BC21A1E94C955009590D9 /* UrbenAirShip */;
+			targetProxy = 9A7BC23B1E94C956009590D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A7BC2221E94C956009590D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7BC2231E94C956009590D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A7BC2271E94C956009590D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7BC2281E94C956009590D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A7BC2411E94C956009590D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A7BC2421E94C956009590D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A7BC2441E94C956009590D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UrbenAirShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A7BC2451E94C956009590D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UrbenAirShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A7BC2471E94C956009590D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UrbenAirShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbenAirShip.app/UrbenAirShip";
+			};
+			name = Debug;
+		};
+		9A7BC2481E94C956009590D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UrbenAirShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbenAirShip.app/UrbenAirShip";
+			};
+			name = Release;
+		};
+		9A7BC24A1E94C956009590D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UrbenAirShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UrbenAirShip;
+			};
+			name = Debug;
+		};
+		9A7BC24B1E94C956009590D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UrbenAirShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UrbenAirShip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7BC2161E94C955009590D9 /* Build configuration list for PBXProject "UrbenAirShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7BC2411E94C956009590D9 /* Debug */,
+				9A7BC2421E94C956009590D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7BC2431E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7BC2441E94C956009590D9 /* Debug */,
+				9A7BC2451E94C956009590D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A7BC2461E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7BC2471E94C956009590D9 /* Debug */,
+				9A7BC2481E94C956009590D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A7BC2491E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7BC24A1E94C956009590D9 /* Debug */,
+				9A7BC24B1E94C956009590D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A7BC2131E94C955009590D9 /* Project object */;
+}
