@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>com.photon.UAPushNotification.ExampleServiceExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>9A7BC2391E94C956009590D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A7BC2521E94D223009590D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

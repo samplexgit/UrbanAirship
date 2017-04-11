@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337F0487F8D1DEDA0BA76896 /* Pods_UrbenAirShip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1DDE2C3A1AA4160081A71A /* Pods_UrbenAirShip.framework */; };
 		9A7BC21F1E94C955009590D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC21E1E94C955009590D9 /* AppDelegate.swift */; };
 		9A7BC2211E94C955009590D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2201E94C955009590D9 /* ViewController.swift */; };
 		9A7BC2241E94C956009590D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7BC2221E94C956009590D9 /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		9A7BC2291E94C956009590D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7BC2271E94C956009590D9 /* LaunchScreen.storyboard */; };
 		9A7BC2341E94C956009590D9 /* UrbenAirShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2331E94C956009590D9 /* UrbenAirShipTests.swift */; };
 		9A7BC23F1E94C956009590D9 /* UrbenAirShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC23E1E94C956009590D9 /* UrbenAirShipUITests.swift */; };
+		9A7BC24E1E94D05C009590D9 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A7BC24D1E94D05C009590D9 /* AirshipConfig.plist */; };
+		9A7BC2681E9501A7009590D9 /* InboxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2651E9501A7009590D9 /* InboxDelegate.swift */; };
+		9A7BC2691E9501A7009590D9 /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2661E9501A7009590D9 /* MessageCenterViewController.swift */; };
+		9A7BC26A1E9501A7009590D9 /* PushHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC2671E9501A7009590D9 /* PushHandler.swift */; };
+		9ACA65931E97A78A004F5A51 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA65921E97A78A004F5A51 /* NewViewController.swift */; };
+		C5A5E2D2A32FAB637CEB2858 /* Pods_UrbenAirShipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0B3037A67DBA87FEE3CD5A /* Pods_UrbenAirShipTests.framework */; };
+		EEE713A37EED5683440DF864 /* Pods_UrbenAirShipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6920E73514BB527A2433CCA /* Pods_UrbenAirShipUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +41,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9A7BC25E1E94D223009590D9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0562C9D007556B020276046D /* Pods-UrbenAirShipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbenAirShipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrbenAirShipTests/Pods-UrbenAirShipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0B3037A67DBA87FEE3CD5A /* Pods_UrbenAirShipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbenAirShipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CC26A4B0846141DB7245B2 /* Pods-UrbenAirShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbenAirShip.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrbenAirShip/Pods-UrbenAirShip.release.xcconfig"; sourceTree = "<group>"; };
+		29B9FF36125D08610CF07BBF /* Pods-UrbenAirShipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbenAirShipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrbenAirShipTests/Pods-UrbenAirShipTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC7DC6A7775E5D9B80F6A7D /* Pods-UrbenAirShipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbenAirShipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrbenAirShipUITests/Pods-UrbenAirShipUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A7BC21B1E94C955009590D9 /* UrbenAirShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbenAirShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7BC21E1E94C955009590D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A7BC2201E94C955009590D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,19 @@
 		9A7BC23A1E94C956009590D9 /* UrbenAirShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbenAirShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7BC23E1E94C956009590D9 /* UrbenAirShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbenAirShipUITests.swift; sourceTree = "<group>"; };
 		9A7BC2401E94C956009590D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7BC24C1E94CE6E009590D9 /* UrbenAirShip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UrbenAirShip.entitlements; sourceTree = "<group>"; };
+		9A7BC24D1E94D05C009590D9 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AirshipConfig.plist; path = UrbenAirShip/AirshipConfig.plist; sourceTree = "<group>"; };
+		9A7BC2551E94D223009590D9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		9A7BC2571E94D223009590D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7BC25F1E94DA09009590D9 /* AirshipAppExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AirshipAppExtensions.framework; path = "../../../Library/Developer/Xcode/DerivedData/UrbenAirShip-egjhvejklwwguqafnxvheugvmhja/Build/Products/Debug-iphoneos/UrbanAirship-iOS-AppExtensions/AirshipAppExtensions.framework"; sourceTree = "<group>"; };
+		9A7BC2651E9501A7009590D9 /* InboxDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InboxDelegate.swift; path = SupportCoppied/InboxDelegate.swift; sourceTree = "<group>"; };
+		9A7BC2661E9501A7009590D9 /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCenterViewController.swift; path = SupportCoppied/MessageCenterViewController.swift; sourceTree = "<group>"; };
+		9A7BC2671E9501A7009590D9 /* PushHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushHandler.swift; path = SupportCoppied/PushHandler.swift; sourceTree = "<group>"; };
+		9ACA65921E97A78A004F5A51 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		AA3650CBE586B751233311B4 /* Pods-UrbenAirShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbenAirShip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrbenAirShip/Pods-UrbenAirShip.debug.xcconfig"; sourceTree = "<group>"; };
+		BA1DDE2C3A1AA4160081A71A /* Pods_UrbenAirShip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbenAirShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E463DCE9B2BAE8584DAA4861 /* Pods-UrbenAirShipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbenAirShipUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrbenAirShipUITests/Pods-UrbenAirShipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6920E73514BB527A2433CCA /* Pods_UrbenAirShipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbenAirShipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337F0487F8D1DEDA0BA76896 /* Pods_UrbenAirShip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A5E2D2A32FAB637CEB2858 /* Pods_UrbenAirShipTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +109,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE713A37EED5683440DF864 /* Pods_UrbenAirShipUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B6386E1FBEFC81F866081C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC25F1E94DA09009590D9 /* AirshipAppExtensions.framework */,
+				BA1DDE2C3A1AA4160081A71A /* Pods_UrbenAirShip.framework */,
+				1E0B3037A67DBA87FEE3CD5A /* Pods_UrbenAirShipTests.framework */,
+				E6920E73514BB527A2433CCA /* Pods_UrbenAirShipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A7BC2121E94C955009590D9 = {
 			isa = PBXGroup;
 			children = (
+				9A7BC24D1E94D05C009590D9 /* AirshipConfig.plist */,
 				9A7BC21D1E94C955009590D9 /* UrbenAirShip */,
 				9A7BC2321E94C956009590D9 /* UrbenAirShipTests */,
 				9A7BC23D1E94C956009590D9 /* UrbenAirShipUITests */,
+				9A7BC2541E94D223009590D9 /* com.photon.UAPushNotification.ExampleServiceExtension */,
 				9A7BC21C1E94C955009590D9 /* Products */,
+				C9ED944FEACFEB7E1DF5F1E0 /* Pods */,
+				7B6386E1FBEFC81F866081C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +154,15 @@
 		9A7BC21D1E94C955009590D9 /* UrbenAirShip */ = {
 			isa = PBXGroup;
 			children = (
+				9A7BC2641E9500F4009590D9 /* SupportCoppied */,
+				9A7BC24C1E94CE6E009590D9 /* UrbenAirShip.entitlements */,
 				9A7BC21E1E94C955009590D9 /* AppDelegate.swift */,
 				9A7BC2201E94C955009590D9 /* ViewController.swift */,
 				9A7BC2221E94C956009590D9 /* Main.storyboard */,
 				9A7BC2251E94C956009590D9 /* Assets.xcassets */,
 				9A7BC2271E94C956009590D9 /* LaunchScreen.storyboard */,
 				9A7BC22A1E94C956009590D9 /* Info.plist */,
+				9ACA65921E97A78A004F5A51 /* NewViewController.swift */,
 			);
 			path = UrbenAirShip;
 			sourceTree = "<group>";
@@ -125,6 +185,38 @@
 			path = UrbenAirShipUITests;
 			sourceTree = "<group>";
 		};
+		9A7BC2541E94D223009590D9 /* com.photon.UAPushNotification.ExampleServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC2551E94D223009590D9 /* NotificationService.swift */,
+				9A7BC2571E94D223009590D9 /* Info.plist */,
+			);
+			path = com.photon.UAPushNotification.ExampleServiceExtension;
+			sourceTree = "<group>";
+		};
+		9A7BC2641E9500F4009590D9 /* SupportCoppied */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BC2651E9501A7009590D9 /* InboxDelegate.swift */,
+				9A7BC2661E9501A7009590D9 /* MessageCenterViewController.swift */,
+				9A7BC2671E9501A7009590D9 /* PushHandler.swift */,
+			);
+			name = SupportCoppied;
+			sourceTree = "<group>";
+		};
+		C9ED944FEACFEB7E1DF5F1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA3650CBE586B751233311B4 /* Pods-UrbenAirShip.debug.xcconfig */,
+				28CC26A4B0846141DB7245B2 /* Pods-UrbenAirShip.release.xcconfig */,
+				0562C9D007556B020276046D /* Pods-UrbenAirShipTests.debug.xcconfig */,
+				29B9FF36125D08610CF07BBF /* Pods-UrbenAirShipTests.release.xcconfig */,
+				7BC7DC6A7775E5D9B80F6A7D /* Pods-UrbenAirShipUITests.debug.xcconfig */,
+				E463DCE9B2BAE8584DAA4861 /* Pods-UrbenAirShipUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A7BC2431E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShip" */;
 			buildPhases = (
+				67ED6063AA596DF5CCB23EC6 /* [CP] Check Pods Manifest.lock */,
 				9A7BC2171E94C955009590D9 /* Sources */,
 				9A7BC2181E94C955009590D9 /* Frameworks */,
 				9A7BC2191E94C955009590D9 /* Resources */,
+				BB1999E1294A638115A8AF3B /* [CP] Embed Pods Frameworks */,
+				7D969499FCA714C932E298EE /* [CP] Copy Pods Resources */,
+				9A7BC25E1E94D223009590D9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -149,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A7BC2461E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipTests" */;
 			buildPhases = (
+				7282FD9498B255A88A7C97F4 /* [CP] Check Pods Manifest.lock */,
 				9A7BC22B1E94C956009590D9 /* Sources */,
 				9A7BC22C1E94C956009590D9 /* Frameworks */,
 				9A7BC22D1E94C956009590D9 /* Resources */,
+				945830B43A7A1C9C1E253EB8 /* [CP] Embed Pods Frameworks */,
+				BA57237FFB7248D5DEDD8752 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A7BC2491E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipUITests" */;
 			buildPhases = (
+				9A50A0419F427B70D4B4D1A6 /* [CP] Check Pods Manifest.lock */,
 				9A7BC2361E94C956009590D9 /* Sources */,
 				9A7BC2371E94C956009590D9 /* Frameworks */,
 				9A7BC2381E94C956009590D9 /* Resources */,
+				41DC24FD4ABECC4B4BDC635B /* [CP] Embed Pods Frameworks */,
+				39558DD570FA7CB06FD4EFE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +295,16 @@
 				TargetAttributes = {
 					9A7BC21A1E94C955009590D9 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VJN4EB6PTB;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					9A7BC22E1E94C956009590D9 = {
 						CreatedOnToolsVersion = 8.3;
@@ -235,6 +346,7 @@
 				9A7BC2291E94C956009590D9 /* LaunchScreen.storyboard in Resources */,
 				9A7BC2261E94C956009590D9 /* Assets.xcassets in Resources */,
 				9A7BC2241E94C956009590D9 /* Main.storyboard in Resources */,
+				9A7BC24E1E94D05C009590D9 /* AirshipConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +366,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39558DD570FA7CB06FD4EFE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbenAirShipUITests/Pods-UrbenAirShipUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41DC24FD4ABECC4B4BDC635B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbenAirShipUITests/Pods-UrbenAirShipUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67ED6063AA596DF5CCB23EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7282FD9498B255A88A7C97F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D969499FCA714C932E298EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbenAirShip/Pods-UrbenAirShip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945830B43A7A1C9C1E253EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbenAirShipTests/Pods-UrbenAirShipTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A50A0419F427B70D4B4D1A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA57237FFB7248D5DEDD8752 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbenAirShipTests/Pods-UrbenAirShipTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1999E1294A638115A8AF3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrbenAirShip/Pods-UrbenAirShip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A7BC2171E94C955009590D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +511,10 @@
 			files = (
 				9A7BC2211E94C955009590D9 /* ViewController.swift in Sources */,
 				9A7BC21F1E94C955009590D9 /* AppDelegate.swift in Sources */,
+				9A7BC2681E9501A7009590D9 /* InboxDelegate.swift in Sources */,
+				9ACA65931E97A78A004F5A51 /* NewViewController.swift in Sources */,
+				9A7BC2691E9501A7009590D9 /* MessageCenterViewController.swift in Sources */,
+				9A7BC26A1E9501A7009590D9 /* PushHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -412,11 +666,16 @@
 		};
 		9A7BC2441E94C956009590D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3650CBE586B751233311B4 /* Pods-UrbenAirShip.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UrbenAirShip/UrbenAirShip.entitlements;
+				DEVELOPMENT_TEAM = VJN4EB6PTB;
 				INFOPLIST_FILE = UrbenAirShip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.UAPushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,11 +683,16 @@
 		};
 		9A7BC2451E94C956009590D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CC26A4B0846141DB7245B2 /* Pods-UrbenAirShip.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UrbenAirShip/UrbenAirShip.entitlements;
+				DEVELOPMENT_TEAM = VJN4EB6PTB;
 				INFOPLIST_FILE = UrbenAirShip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Photon.UrbenAirShip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.UAPushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -436,6 +700,7 @@
 		};
 		9A7BC2471E94C956009590D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0562C9D007556B020276046D /* Pods-UrbenAirShipTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +715,7 @@
 		};
 		9A7BC2481E94C956009590D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B9FF36125D08610CF07BBF /* Pods-UrbenAirShipTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +730,7 @@
 		};
 		9A7BC24A1E94C956009590D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC7DC6A7775E5D9B80F6A7D /* Pods-UrbenAirShipUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = UrbenAirShipUITests/Info.plist;
@@ -477,6 +744,7 @@
 		};
 		9A7BC24B1E94C956009590D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E463DCE9B2BAE8584DAA4861 /* Pods-UrbenAirShipUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = UrbenAirShipUITests/Info.plist;
@@ -507,6 +775,7 @@
 				9A7BC2451E94C956009590D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A7BC2461E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +784,7 @@
 				9A7BC2481E94C956009590D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A7BC2491E94C956009590D9 /* Build configuration list for PBXNativeTarget "UrbenAirShipUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +793,7 @@
 				9A7BC24B1E94C956009590D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
